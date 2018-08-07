@@ -1,0 +1,32 @@
+{
+  "name": "upwork-fee-calc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ShavidzeT/upwork-fee-calc.git",
+  "author": "Tornike Shavidze <shavidzet@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config webpack.dev.js",
+    "start:watch": "webpack --config webpack.dev.js -w"
+  },
+  "devDependencies": {
+    "@webpack-cli/init": "^0.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.18.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "lit-html": "^0.10.2",
+    "ramda": "^0.25.0"
+  }
+}
