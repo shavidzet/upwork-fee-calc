@@ -31,7 +31,9 @@ const template = () => html`
         <div class="distance-l">
             <div>Amount <i>($)</i></div>
             <input
+                autofocus
                 name="amount"
+                type="number"
                 value=${inputs.amount}
                 on-keyup=${handleInputChange}
             />
@@ -40,6 +42,7 @@ const template = () => html`
             <div>Contract fee <i>(%)</i></div>
             <input
                 name="contractFee"
+                type="number"
                 value=${inputs.contractFee}
                 on-keyup=${handleInputChange}
             />
@@ -48,6 +51,7 @@ const template = () => html`
             <div>VAT <i>(%)</i></div>
             <input
                 name="vat"
+                type="number"
                 value=${inputs.vat}
                 on-keyup=${handleInputChange}
             />
